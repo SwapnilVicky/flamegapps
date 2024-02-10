@@ -99,7 +99,7 @@ make_gapps() {
 }
 
 create_zip() {
-  FILE_NAME="FlameGApps-$ANDROID-$EDITION-$ARCH-$ZIP_DATE"
+  FILE_NAME="FlameGApps-$ANDROID-CUSTOM-$EDITION-$ARCH-$ZIP_DATE"
   echo "--> Creating $FILE_NAME-UNSIGNED.zip"
   cd $ZIP_DIR
   zip -9 -r $FILE_NAME-UNSIGNED.zip .
