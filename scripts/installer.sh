@@ -19,9 +19,7 @@ gapps_list_basic="
 AndroidAutoStub
 CalendarSync
 DigitalWellbeing
-GooglePackageInstaller
 MarkupGoogle
-SetupWizard
 SoundPickerGoogle"
 
 # List of the full edition gapps files
@@ -50,7 +48,6 @@ PixelConfig"
 
 # List of pre-installed unnecessary files
 rm_list_basic="
-app/AndroidAutoStubPrebuilt
 app/ExtShared
 app/GoogleCalendarSyncAdapter
 app/GoogleContactsSyncAdapter
@@ -81,7 +78,6 @@ framework/com.google.android.maps.jar
 framework/com.google.android.media.effects.jar
 lib64/libsketchology_native.so
 overlay/forceQueryablePackagesOverlay.apk
-priv-app/AndroidAutoStubPrebuilt
 priv-app/AndroidMigratePrebuilt
 priv-app/AndroidPlatformServices
 priv-app/CarrierSetup
@@ -91,14 +87,12 @@ priv-app/GmsCore
 priv-app/GmsCoreSetupPrebuilt
 priv-app/GoogleBackupTransport
 priv-app/GoogleExtServices
-priv-app/GooglePackageInstaller
 priv-app/GoogleRestore
 priv-app/GoogleServicesFramework
 priv-app/Phonesky
 priv-app/PrebuiltGmsCore
 priv-app/PrebuiltGmsCorePi
 priv-app/PrebuiltGmsCoreQt
-priv-app/SetupWizard
 priv-app/Wellbeing
 priv-app/WellbeingGooglePrebuilt
 priv-app/WellbeingPrebuilt"
